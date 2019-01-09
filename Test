@@ -1,0 +1,14 @@
+# We want to count from 1 to 100 showing :
+#   - "three" if the integer is a multiple of 3
+#   - "five" if the integer is a multiple of 5
+#   - "both" if the integer is a multiple of 3 and 5
+
+for x in range(1,101):
+  if x % 3 == 0 and x % 5 == 0:
+    print("Multiple of 3 and 5")
+  elif x % 3 == 0:
+    print("Multiple of 3")
+  elif x % 5 == 0:
+    print("Multiple of 5")
+  else:
+    print(x)
